@@ -1,7 +1,7 @@
 import cv2
 from keras.models import load_model
 
-filepath = "people.jpg"
+filepath = "photos/people.jpg"
 img = cv2.imread(filepath)  # 读取图片
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  # 转换灰色
 
